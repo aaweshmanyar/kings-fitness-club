@@ -8,19 +8,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Fitclub</title>
+    <title>Kings Fitness club</title>
   </head>
   <body>
     <nav>
       <div class="nav__logo">
-        <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        <a href="#"><img src="assets/logo2.png" alt="logo" /></a>
       </div>
       <ul class="nav__links">
         <li class="link"><a href="#">Home</a></li>
-        <li class="link"><a href="#">Program</a></li>
-        <li class="link"><a href="#">Service</a></li>
+        <li class="link"><a href="#program">Program</a></li>
+        <li class="link"><a href="#plans">Plans</a></li>
         <li class="link"><a href="#">About</a></li>
-        <li class="link"><a href="#">Community</a></li>
+        <li class="link"><a href="#Community">Community</a></li>
       </ul>
       <button class="btn">Join Now</button>
     </nav>
@@ -43,7 +43,7 @@
       </div>
     </header>
 
-    <section class="section__container explore__container">
+    <section class="section__container explore__container" id="program">
       <div class="explore__header">
         <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
         <div class="explore__nav">
@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <section class="section__container join__container">
+    <section class="section__container join__container" id="Community">
       <h2 class="section__header">WHY JOIN US ?</h2>
       <p class="section__subheader">
         Our diverse membership base creates a friendly and supportive
@@ -145,7 +145,7 @@
       </div>
     </section>
 
-    <section class="section__container price__container">
+    <section class="section__container price__container" id="plans">
       <h2 class="section__header">OUR PRICING PLAN</h2>
       <p class="section__subheader">
         Our pricing plan comes with various membership tiers, each tailored to
@@ -154,65 +154,103 @@
       <div class="price__grid">
         <div class="price__card">
           <div class="price__card__content">
-            <h4>Basic Plan</h4>
-            <h3>$16</h3>
+            <h4>Weight Training</h4>
+            <h3>Training plan</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              Smart workout plan
+              MONTHLY = 1500/-
             </p>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              At home workouts
+              QUARTERLY = 3500/-
             </p>
-          </div>
-          <button class="btn price__btn">Join Now</button>
-        </div>
-        <div class="price__card">
-          <div class="price__card__content">
-            <h4>Weekly Plan</h4>
-            <h3>$25</h3>
+
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              PRO Gyms
-            </p>
+              HALF-YEARLY = 6000/-
+            </p> 
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              Smart workout plan
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              At home workouts
+                YEARLY = 10000/-
             </p>
           </div>
           <button class="btn price__btn">Join Now</button>
         </div>
         <div class="price__card">
           <div class="price__card__content">
-            <h4>Monthly Plan</h4>
-            <h3>$45</h3>
+            <h4>Cardio</h4>
+            <h3>Cardio plan</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              ELITE Gyms & Classes
+              MONTHLY = 2000/-
             </p>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              PRO Gyms
+              QUARTERLY = 5000/-
+            </p>
+
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              HALF-YEARLY = 8000/-
+            </p> 
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+                YEARLY = 12000/-
+            </p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Personal Training</h4>
+            <h3>Training Fees</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              MONTHLY = 8000/-
             </p>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              Smart workout plan
+              QUARTERLY = 18000/-
             </p>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              At home workouts
+              HALF-YEARLY = 30000/-
+            </p> 
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              YEARLY = 45000/-
+            </p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Combined Training</h4>
+            <h3>Weightlifting + Cardio</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              MONTHLY = 3000/-
             </p>
             <p>
+              <i class="ri-checkbox-circle-line"></i>
+              QUARTERLY = 7000/-
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              HALF-YEARLY = 12000/-
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              YEARLY = 16000/-
+            </p>
+            <!-- <p>
               <i class="ri-checkbox-circle-line"></i>
               Personal Training
-            </p>
+            </p> -->
           </div>
           <button class="btn price__btn">Join Now</button>
         </div>
+        
       </div>
     </section>
 
@@ -256,7 +294,7 @@
       <span class="bg__blur"></span>
       <span class="bg__blur footer__blur"></span>
       <div class="footer__col">
-        <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
+        <div class="footer__logo"><img src="assets/logo2.png" alt="logo" /></div>
         <p>
           Take the first step towards a healthier, stronger you with our
           unbeatable pricing plans. Let's sweat, achieve, and conquer together!
