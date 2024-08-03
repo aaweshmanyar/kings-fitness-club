@@ -647,3 +647,94 @@ nav {
     display: flex;
   }
 }
+
+
+/* Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav ul {
+      float: none;
+      text-align: center;
+  }
+
+  header nav ul {
+      padding: 0;
+  }
+
+  header nav ul li {
+      display: block;
+      margin: 0;
+  }
+
+  #showcase h1 {
+      font-size: 40px;
+      margin-top: 70px;
+  }
+
+  #showcase p {
+      font-size: 18px;
+  }
+
+  #main {
+      padding: 10px;
+  }
+
+  #main h1 {
+      font-size: 25px;
+  }
+
+  #main p {
+      font-size: 16px;
+  }
+}
+
+
+/* Media Queries for Large Screens */
+@media (min-width: 769px) {
+  .container {
+      width: 75%;
+  }
+
+  header nav {
+      margin-top: 0;
+  }
+}
+
+/* For phones */
+@media (max-width: 480px) {
+  header #branding h1 {
+      font-size: 24px;
+  }
+
+  header nav ul {
+      padding: 0;
+  }
+
+  header nav ul li {
+      padding: 10px;
+  }
+
+  #showcase h1 {
+      font-size: 30px;
+      margin-top: 50px;
+  }
+
+  #showcase p {
+      font-size: 16px;
+  }
+
+  #main {
+      padding: 5px;
+  }
+
+  #main h1 {
+      font-size: 20px;
+  }
+
+  #main p {
+      font-size: 14px;
+  }
+}
