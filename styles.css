@@ -563,6 +563,97 @@ nav {
   color: var(--white);
 }
 
+@media (min-width: 1081px) {
+  .container {
+      width: 75%;
+  }
+
+  header nav {
+      margin-top: 0;
+  }
+}
+
+
+@media (max-width: 1080px) {
+  .container {
+      width: 85%;
+  }
+
+  header #branding,
+  header nav,
+  header nav ul {
+      float: none;
+      text-align: center;
+  }
+
+  header nav ul {
+      padding: 0;
+  }
+
+  header nav ul li {
+      display: block;
+      margin: 0;
+  }
+
+  #showcase h1 {
+      font-size: 48px;
+      margin-top: 80px;
+  }
+
+  #showcase p {
+      font-size: 18px;
+  }
+
+  #main {
+      padding: 15px;
+  }
+
+  #main h1 {
+      font-size: 28px;
+  }
+
+  #main p {
+      font-size: 17px;
+  }
+}
+
+/* For screens 1020px and below */
+@media (max-width: 1020px) {
+  .container {
+      width: 90%;
+  }
+
+  header #branding h1 {
+      font-size: 26px;
+  }
+
+  header nav ul li {
+      padding: 10px;
+  }
+
+  #showcase h1 {
+      font-size: 42px;
+      margin-top: 70px;
+  }
+
+  #showcase p {
+      font-size: 17px;
+  }
+
+  #main {
+      padding: 10px;
+  }
+
+  #main h1 {
+      font-size: 25px;
+  }
+
+  #main p {
+      font-size: 16px;
+  }
+}
+
+
 @media (width < 900px) {
   .nav__links {
     display: none;
